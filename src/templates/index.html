@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Apps</title>
+    <link rel="manifest" href="./manifest.json">
+  </head>
+  <body>
+    <a href="#mainContent" class="skip-link">Skip to Content</a>
+    <header class="app-bar">
+      <div class="app-bar__brand">
+        <a href="/">
+        <img src="./images/logo/Hunyu.png" alt="" class="brand-logo" />
+      </a>
+        <h1>Hunyu App Resto</h1>
+      </div>
+      <button aria-label="menu" class="app-bar__menu" id="menuButton">
+        &#9776;
+      </button>
+      <nav class="app-bar__nav">
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li><a href="https://github.com/MeyliaWijayanti06">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav class="drawer" id="drawer">
+      <ul class="drawer-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="#/favorite">Favorite</a></li>
+        <li><a href="https://github.com/MeyliaWijayanti06">About Us</a></li>
+      </ul>
+    </nav>
+    
+    
+    <main id="mainContent">
+      <section class="hero">
+        <img src="./images/heros/hero-image_2.jpg" alt="Hero Image" />
+        <div class="hero__content">
+          <h2>Welcome to Hunyu App Resto</h2>
+          <p>Explore our best restaurants!</p>
+        </div>
+      </section>
+      <section class="restaurant-list">
+        <h2>Explore Restaurants</h2>
+        <div class="restaurants"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 - Hunyu Apps. Web Meylia Wijayanti.</p>
+    </footer>
+
+  </body>
+</html>
